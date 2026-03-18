@@ -13,23 +13,9 @@ Inference-only classifiers used to evaluate concept erasure across five domains.
 
 ---
 
-## Domain → Classifier Mapping
-
-| Domain | Prompt template | Classifier(s) |
-|--------|----------------|---------------|
-| Object | `an image of <c>` | ML-Decoder |
-| Celebrity | `a photo of <c>` | GCD |
-| Art style | `a photo in the style of <c>` | UnlearnDiffAtk |
-| NSFW | `a <c> photo` | NudeNet, Q16, ML-Decoder |
-| Copyright | `an image with <c> logo` | YOLOv11 |
-
----
-
 ## ML_Decoder
 
-**Domain:** Object, NSFW
-
-Multi-label classification head based on cross-attention between learned queries and image features. Used for 80-class COCO object detection and NSFW content classification.
+Multi-label classification head based on cross-attention between learned queries and image features. Used for COCO object detection.
 
 - Paper: [ML-Decoder: Scalable and Versatile Classification Head](https://arxiv.org/abs/2111.12933)
 - Code: [Alibaba-MIIL/ML_Decoder](https://github.com/Alibaba-MIIL/ML_Decoder)
@@ -39,8 +25,8 @@ Multi-label classification head based on cross-attention between learned queries
 ML_Decoder/
 ├── src_files/ml_decoder/ml_decoder.py   # Core attention head architecture
 ├── inplace_abn/                          # In-place batch norm dependency
-├── infer.py                              # Inference: COCO 80-class object detection
-├── infer_nsfw.py                         # Inference: NSFW classification
+├── infer.py                              # Inference: COCO object detection
+├── infer_nsfw.py                         # Inference: COCO object classification in NSFW domain
 ├── validate.py                           # Validation/evaluation
 └── detected_classes.txt                  # 80 detectable class labels
 ```
@@ -48,8 +34,6 @@ ML_Decoder/
 ---
 
 ## GCD
-
-**Domain:** Celebrity
 
 Face detection + recognition pipeline from Giphy's open-source celebrity detector. Detects faces via MTCNN, then classifies identity using a fine-tuned ResNet model.
 
@@ -70,8 +54,6 @@ GCD/
 ---
 
 ## Diffusion-MU-Attack
-
-**Domain:** Art style
 
 Art style classifier fine-tuned on 129 artist styles (Monet, Warhol, Cézanne, Rembrandt, etc.), built on a HuggingFace `image-classification` pipeline over a fine-tuned ResNet-50.
 
@@ -112,8 +94,6 @@ NudeNet/
 
 ## Q16
 
-**Domain:** NSFW
-
 CLIP-based binary classifier for inappropriate content (Q16 probe). Uses pre-computed text embeddings from CLIP to classify images as appropriate or inappropriate via cosine similarity.
 
 - Paper: [Unsafe Diffusion: On the Generation of Unsafe Images and Hateful Memes From Text-To-Image Models](https://arxiv.org/abs/2305.13873)
@@ -138,8 +118,6 @@ Q16/
 ---
 
 ## YOLO
-
-**Domain:** Copyright
 
 YOLOv11-based logo detector for brand/copyright classification. Detects whether generated images contain recognizable brand logos.
 
