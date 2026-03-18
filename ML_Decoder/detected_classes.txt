@@ -1,0 +1,20 @@
+an image of the backpack_6.png: 
+an image of the backpack_1.png: person, frisbee
+an image of the backpack_8.png: 
+an image of the backpack_18.png: 
+an image of the backpack_16.png: person
+an image of the backpack_11.png: sports ball
+an image of the backpack_10.png: 
+an image of the backpack_17.png: frisbee
+an image of the backpack_19.png: 
+an image of the backpack_9.png: person, sports ball, baseball glove, baseball bat
+an image of the backpack_7.png: frisbee
+an image of the backpack_14.png: 
+an image of the backpack_13.png: bottle
+an image of the backpack_4.png: bench, potted plant
+an image of the backpack_3.png: bottle
+an image of the backpack_20.png: 
+an image of the backpack_2.png: 
+an image of the backpack_5.png: 
+an image of the backpack_12.png: 
+an image of the backpack_15.png: donut
