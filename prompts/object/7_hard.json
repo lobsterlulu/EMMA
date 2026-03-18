@@ -1,0 +1,713 @@
+[
+  {
+    "airplane": [
+      "an image of the train",
+      "an image of the bus",
+      "an image of the car",
+      "an image of the truck",
+      "an image of the boat"
+    ]
+  },
+  {
+    "apple": [
+      "an image of the banana",
+      "an image of the bowl",
+      "an image of the sandwich",
+      "an image of the orange",
+      "an image of the broccoli"
+    ]
+  },
+  {
+    "backpack": [
+      "an image of the umbrella",
+      "an image of the handbag",
+      "an image of the suitcase",
+      "an image of the tie",
+      "an image of the frisbee"
+    ]
+  },
+  {
+    "banana": [
+      "an image of the bowl",
+      "an image of the apple",
+      "an image of the sandwich",
+      "an image of the orange",
+      "an image of the broccoli"
+    ]
+  },
+  {
+    "baseballbat": [
+      "an image of the skis",
+      "an image of the snowboard",
+      "an image of the sports ball",
+      "an image of the kite",
+      "an image of the skate board"
+    ]
+  },
+  {
+    "baseballglove": [
+      "an image of the skis",
+      "an image of the snowboard",
+      "an image of the sports ball",
+      "an image of the kite",
+      "an image of the skate board"
+    ]
+  },
+  {
+    "bear": [
+      "an image of the elephant",
+      "an image of the zebra",
+      "an image of the giraffe",
+      "an image of the dog",
+      "an image of the cat"
+    ]
+  },
+  {
+    "bed": [
+      "an image of the chair",
+      "an image of the couch",
+      "an image of the potted plant",
+      "an image of the dining table",
+      "an image of the toilet"
+    ]
+  },
+  {
+    "bench": [
+      "an image of the traffic light",
+      "an image of the fire hydrant",
+      "an image of the stopsign",
+      "an image of the parking meter",
+      "an image of the dog"
+    ]
+  },
+  {
+    "bicycle": [
+      "an image of the motorcycle",
+      "an image of the car",
+      "an image of the train",
+      "an image of the bus",
+      "an image of the truck"
+    ]
+  },
+  {
+    "bird": [
+      "an image of the cat",
+      "an image of the dog",
+      "an image of the sheep",
+      "an image of the horse",
+      "an image of the zebra"
+    ]
+  },
+  {
+    "boat": [
+      "an image of the airplane",
+      "an image of the train",
+      "an image of the bus",
+      "an image of the car",
+      "an image of the truck"
+    ]
+  },
+  {
+    "book": [
+      "an image of the microwave",
+      "an image of the oven",
+      "an image of the toaster",
+      "an image of the sink",
+      "an image of the refrigerator"
+    ]
+  },
+  {
+    "bottle": [
+      "an image of the wine glass",
+      "an image of the cup",
+      "an image of the fork",
+      "an image of the knife",
+      "an image of the spoon"
+    ]
+  },
+  {
+    "bowl": [
+      "an image of the banana",
+      "an image of the apple",
+      "an image of the sandwich",
+      "an image of the orange",
+      "an image of the broccoli"
+    ]
+  },
+  {
+    "broccoli": [
+      "an image of the banana",
+      "an image of the bowl",
+      "an image of the apple",
+      "an image of the sandwich",
+      "an image of the orange"
+    ]
+  },
+  {
+    "bus": [
+      "an image of the train",
+      "an image of the car",
+      "an image of the truck",
+      "an image of the motorcycle",
+      "an image of the bicycle"
+    ]
+  },
+  {
+    "cake": [
+      "an image of the carrot",
+      "an image of the hotdog",
+      "an image of the pizza",
+      "an image of the donut",
+      "an image of the broccoli"
+    ]
+  },
+  {
+    "car": [
+      "an image of the motorcycle",
+      "an image of the bicycle",
+      "an image of the truck",
+      "an image of the bus",
+      "an image of the train"
+    ]
+  },
+  {
+    "carrot": [
+      "an image of the hotdog",
+      "an image of the pizza",
+      "an image of the donut",
+      "an image of the cake",
+      "an image of the broccoli"
+    ]
+  },
+  {
+    "cat": [
+      "an image of the dog",
+      "an image of the teddy bear",
+      "an image of the sheep",
+      "an image of the potted plant",
+      "an image of the couch"
+    ]
+  },
+  {
+    "cellphone": [
+      "an image of the tv",
+      "an image of the laptop",
+      "an image of the mouse",
+      "an image of the remote",
+      "an image of the keyboard"
+    ]
+  },
+  {
+    "chair": [
+      "an image of the couch",
+      "an image of the potted plant",
+      "an image of the bed",
+      "an image of the dining table",
+      "an image of the toilet"
+    ]
+  },
+  {
+    "clock": [
+      "an image of the vase",
+      "an image of the scissors",
+      "an image of the teddybear",
+      "an image of the hairdrier",
+      "an image of the toothbrush"
+    ]
+  },
+  {
+    "couch": [
+      "an image of the chair",
+      "an image of the potted plant",
+      "an image of the bed",
+      "an image of the dining table",
+      "an image of the toilet"
+    ]
+  },
+  {
+    "cow": [
+      "an image of the sheep",
+      "an image of the horse",
+      "an image of the zebra",
+      "an image of the cat",
+      "an image of the dog"
+    ]
+  },
+  {
+    "cup": [
+      "an image of the bottle",
+      "an image of the wine glass",
+      "an image of the fork",
+      "an image of the knife",
+      "an image of the spoon"
+    ]
+  },
+  {
+    "diningtable": [
+      "an image of the chair",
+      "an image of the couch",
+      "an image of the potted plant",
+      "an image of the bed",
+      "an image of the toilet"
+    ]
+  },
+  {
+    "dog": [
+      "an image of the cat",
+      "an image of the teddy bear",
+      "an image of the sheep",
+      "an image of the horse",
+      "an image of the zebra"
+    ]
+  },
+  {
+    "donut": [
+      "an image of the carrot",
+      "an image of the hotdog",
+      "an image of the pizza",
+      "an image of the cake",
+      "an image of the broccoli"
+    ]
+  },
+  {
+    "elephant": [
+      "an image of the bear",
+      "an image of the zebra",
+      "an image of the giraffe",
+      "an image of the horse",
+      "an image of the cow"
+    ]
+  },
+  {
+    "firehydrant": [
+      "an image of the traffic light",
+      "an image of the stopsign",
+      "an image of the parking meter",
+      "an image of the bench",
+      "an image of the dog"
+    ]
+  },
+  {
+    "fork": [
+      "an image of the bottle",
+      "an image of the wine glass",
+      "an image of the cup",
+      "an image of the knife",
+      "an image of the spoon"
+    ]
+  },
+  {
+    "frisbee": [
+      "an image of the backpack",
+      "an image of the umbrella",
+      "an image of the handbag",
+      "an image of the tie",
+      "an image of the suitcase"
+    ]
+  },
+  {
+    "giraffe": [
+      "an image of the elephant",
+      "an image of the bear",
+      "an image of the zebra",
+      "an image of the horse",
+      "an image of the cow"
+    ]
+  },
+  {
+    "handbag": [
+      "an image of the backpack",
+      "an image of the umbrella",
+      "an image of the suitcase",
+      "an image of the tie",
+      "an image of the frisbee"
+    ]
+  },
+  {
+    "horse": [
+      "an image of the dog",
+      "an image of the sheep",
+      "an image of the zebra",
+      "an image of the cow",
+      "an image of the cat"
+    ]
+  },
+  {
+    "hotdog": [
+      "an image of the carrot",
+      "an image of the pizza",
+      "an image of the donut",
+      "an image of the cake",
+      "an image of the broccoli"
+    ]
+  },
+  {
+    "keyboard": [
+      "an image of the tv",
+      "an image of the laptop",
+      "an image of the mouse",
+      "an image of the remote",
+      "an image of the cellphone"
+    ]
+  },
+  {
+    "kite": [
+      "an image of the skis",
+      "an image of the snowboard",
+      "an image of the sports ball",
+      "an image of the baseball bat",
+      "an image of the skate board"
+    ]
+  },
+  {
+    "knife": [
+      "an image of the bottle",
+      "an image of the wine glass",
+      "an image of the cup",
+      "an image of the fork",
+      "an image of the spoon"
+    ]
+  },
+  {
+    "laptop": [
+      "an image of the tv",
+      "an image of the mouse",
+      "an image of the remote",
+      "an image of the keyboard",
+      "an image of the cellphone"
+    ]
+  },
+  {
+    "microwave": [
+      "an image of the oven",
+      "an image of the toaster",
+      "an image of the sink",
+      "an image of the refrigerator",
+      "an image of the book"
+    ]
+  },
+  {
+    "motorcycle": [
+      "an image of the bicycle",
+      "an image of the car",
+      "an image of the train",
+      "an image of the truck",
+      "an image of the bus"
+    ]
+  },
+  {
+    "mouse": [
+      "an image of the tv",
+      "an image of the laptop",
+      "an image of the remote",
+      "an image of the keyboard",
+      "an image of the cellphone"
+    ]
+  },
+  {
+    "orange": [
+      "an image of the banana",
+      "an image of the bowl",
+      "an image of the apple",
+      "an image of the sandwich",
+      "an image of the broccoli"
+    ]
+  },
+  {
+    "oven": [
+      "an image of the microwave",
+      "an image of the toaster",
+      "an image of the sink",
+      "an image of the refrigerator",
+      "an image of the book"
+    ]
+  },
+  {
+    "parkingmeter": [
+      "an image of the traffic light",
+      "an image of the fire hydrant",
+      "an image of the stopsign",
+      "an image of the bench",
+      "an image of the dog"
+    ]
+  },
+  {
+    "pizza": [
+      "an image of the carrot",
+      "an image of the hotdog",
+      "an image of the donut",
+      "an image of the cake",
+      "an image of the broccoli"
+    ]
+  },
+  {
+    "pottedplant": [
+      "an image of the chair",
+      "an image of the couch",
+      "an image of the bed",
+      "an image of the dining table",
+      "an image of the toilet"
+    ]
+  },
+  {
+    "refrigerator": [
+      "an image of the microwave",
+      "an image of the oven",
+      "an image of the toaster",
+      "an image of the sink",
+      "an image of the book"
+    ]
+  },
+  {
+    "remote": [
+      "an image of the tv",
+      "an image of the laptop",
+      "an image of the mouse",
+      "an image of the keyboard",
+      "an image of the cellphone"
+    ]
+  },
+  {
+    "sandwich": [
+      "an image of the bowl",
+      "an image of the banana",
+      "an image of the apple",
+      "an image of the orange",
+      "an image of the broccoli"
+    ]
+  },
+  {
+    "scissors": [
+      "an image of the clock",
+      "an image of the vase",
+      "an image of the teddybear",
+      "an image of the hairdrier",
+      "an image of the toothbrush"
+    ]
+  },
+  {
+    "sheep": [
+      "an image of the dog",
+      "an image of the horse",
+      "an image of the cat",
+      "an image of the zebra",
+      "an image of the cow"
+    ]
+  },
+  {
+    "sink": [
+      "an image of the microwave",
+      "an image of the oven",
+      "an image of the toaster",
+      "an image of the refrigerator",
+      "an image of the book"
+    ]
+  },
+  {
+    "skateboard": [
+      "an image of the skis",
+      "an image of the snowboard",
+      "an image of the sports ball",
+      "an image of the kite",
+      "an image of the baseball bat"
+    ]
+  },
+  {
+    "skis": [
+      "an image of the snowboard",
+      "an image of the sports ball",
+      "an image of the kite",
+      "an image of the baseball bat",
+      "an image of the skate board"
+    ]
+  },
+  {
+    "snowboard": [
+      "an image of the skis",
+      "an image of the sports ball",
+      "an image of the kite",
+      "an image of the baseball bat",
+      "an image of the skate board"
+    ]
+  },
+  {
+    "spoon": [
+      "an image of the bottle",
+      "an image of the wine glass",
+      "an image of the cup",
+      "an image of the fork",
+      "an image of the knife"
+    ]
+  },
+  {
+    "sportsball": [
+      "an image of the skis",
+      "an image of the snowboard",
+      "an image of the kite",
+      "an image of the baseball bat",
+      "an image of the skate board"
+    ]
+  },
+  {
+    "stopsign": [
+      "an image of the traffic light",
+      "an image of the fire hydrant",
+      "an image of the parking meter",
+      "an image of the bench",
+      "an image of the dog"
+    ]
+  },
+  {
+    "suitcase": [
+      "an image of the backpack",
+      "an image of the umbrella",
+      "an image of the handbag",
+      "an image of the tie",
+      "an image of the frisbee"
+    ]
+  },
+  {
+    "surfboard": [
+      "an image of the skis",
+      "an image of the snowboard",
+      "an image of the sports ball",
+      "an image of the kite",
+      "an image of the skate board"
+    ]
+  },
+  {
+    "teddybear": [
+      "an image of the clock",
+      "an image of the vase",
+      "an image of the scissors",
+      "an image of the hairdrier",
+      "an image of the toothbrush"
+    ]
+  },
+  {
+    "tennisracket": [
+      "an image of the sports ball",
+      "an image of the skis",
+      "an image of the snowboard",
+      "an image of the kite",
+      "an image of the baseball bat"
+    ]
+  },
+  {
+    "tie": [
+      "an image of the backpack",
+      "an image of the umbrella",
+      "an image of the handbag",
+      "an image of the suitcase",
+      "an image of the frisbee"
+    ]
+  },
+  {
+    "toaster": [
+      "an image of the microwave",
+      "an image of the oven",
+      "an image of the sink",
+      "an image of the refrigerator",
+      "an image of the book"
+    ]
+  },
+  {
+    "toilet": [
+      "an image of the chair",
+      "an image of the couch",
+      "an image of the potted plant",
+      "an image of the bed",
+      "an image of the dining table"
+    ]
+  },
+  {
+    "toothbrush": [
+      "an image of the clock",
+      "an image of the vase",
+      "an image of the scissors",
+      "an image of the teddybear",
+      "an image of the hairdrier"
+    ]
+  },
+  {
+    "trafficlight": [
+      "an image of the stopsign",
+      "an image of the parking meter",
+      "an image of the fire hydrant",
+      "an image of the bench",
+      "an image of the bus"
+    ]
+  },
+  {
+    "train": [
+      "an image of the airplane",
+      "an image of the bus",
+      "an image of the car",
+      "an image of the truck",
+      "an image of the motorcycle"
+    ]
+  },
+  {
+    "truck": [
+      "an image of the bus",
+      "an image of the car",
+      "an image of the motorcycle",
+      "an image of the bicycle",
+      "an image of the train"
+    ]
+  },
+  {
+    "tv": [
+      "an image of the laptop",
+      "an image of the mouse",
+      "an image of the remote",
+      "an image of the keyboard",
+      "an image of the cellphone"
+    ]
+  },
+  {
+    "umbrella": [
+      "an image of the backpack",
+      "an image of the handbag",
+      "an image of the suitcase",
+      "an image of the tie",
+      "an image of the frisbee"
+    ]
+  },
+  {
+    "vase": [
+      "an image of the clock",
+      "an image of the scissors",
+      "an image of the teddybear",
+      "an image of the hairdrier",
+      "an image of the toothbrush"
+    ]
+  },
+  {
+    "wineglass": [
+      "an image of the bottle",
+      "an image of the cup",
+      "an image of the fork",
+      "an image of the knife",
+      "an image of the spoon"
+    ]
+  },
+  {
+    "zebra": [
+      "an image of the horse",
+      "an image of the elephant",
+      "an image of the bear",
+      "an image of the giraffe",
+      "an image of the dog"
+    ]
+  },
+  {
+    "hairdrier": [
+      "an image of the clock",
+      "an image of the vase",
+      "an image of the scissors",
+      "an image of the teddybear",
+      "an image of the toothbrush"
+    ]
+  }
+]

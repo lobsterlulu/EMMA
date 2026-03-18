@@ -1,0 +1,722 @@
+[
+  {
+    "airplane": [
+      "A large, winged machine soars through the sky, carrying passengers and cargo across vast distances with the power of jet engines.",
+      "A sleek, winged machine soars through the sky, carrying passengers and cargo across vast distances with speed and precision.",
+      "A sleek, metal-bodied vehicle with wings soars through the sky, carrying passengers and cargo across vast distances.",
+      "A sleek, metal-bodied machine soars through the sky, carrying passengers and cargo across vast distances with the power of its roaring engines.",
+      "A large, winged machine soars through the sky, carrying people and cargo swiftly across great distances."
+    ]
+  },
+  {
+    "apple": [
+      "A round fruit with a crisp texture and a juicy, sweet or tart flavor.",
+      "A commonly eaten fruit that has smooth skin and a central core with seeds.",
+      "A tree-grown fruit available in various colors, such as red, green, and yellow.",
+      "A fruit with a firm outer skin and a crunchy interior filled with juice.",
+      "The edible fruit has a slightly tart or sweet taste and is often eaten fresh or used in desserts."
+    ]
+  },
+  {
+    "backpack": [
+      "A practical carrying bag with adjustable straps designed to hold personal items, typically worn on the back for hands-free convenience.",
+      "A practical bag with straps designed to carry belongings comfortably on one's shoulders, often used for travel or daily activities.",
+      "A compact, portable bag with straps designed to carry personal items on one's shoulders, often equipped with multiple compartments for organization.",
+      "A durable, fabric carrier with straps designed to be worn over the shoulders, used for carrying personal items and essentials.",
+      "A versatile bag designed with straps to be worn on the shoulders, offering ample space for carrying personal belongings and essentials."
+    ]
+  },
+  {
+    "banana": [
+      "A long, curved fruit with a soft, creamy interior and a yellow peel.",
+      "A tropical fruit with a thick, easily removable skin and a sweet taste.",
+      "A nutrient-rich fruit that grows in clusters and has a naturally curved shape.",
+      "A soft and elongated fruit encased in a peel that changes color as it ripens.",
+      "The fruit has a firm outer covering and a tender, sweet flesh inside."
+    ]
+  },
+  {
+    "baseballbat": [
+      "A long, sturdy piece of wood or metal, typically used in sports to hit a pitched ball with force.",
+      "It is a long, cylindrical wooden or metal object used in sports to strike a pitched ball.",
+      "A long, cylindrical piece of wood or metal designed for hitting a ball during a sport, typically with a smooth surface and a slightly tapered end.",
+      "It is a long, cylindrical piece of wood or metal, designed to strike a ball with force in sports like baseball.",
+      "It's a long, cylindrical piece of wood or metal used to strike a pitched ball in the sport of baseball."
+    ]
+  },
+  {
+    "baseballglove": [
+      "It is a padded leather mitt designed to help catch and field a small, hard ball during a game of baseball.",
+      "It's a leather hand protection designed to catch and hold a flying ball, typically used in the sport where players hit a pitched ball with a bat.",
+      "It is a soft, padded handwear designed to help players catch and control a ball during a game.",
+      "A hand-worn protective gear designed to catch and field a hard ball during a game.",
+      "It's a soft, padded hand-worn piece of equipment designed to catch and secure a fast-moving ball during the game."
+    ]
+  },
+  {
+    "bear": [
+      "A large, furry mammal with a stout body, sharp claws, and a keen sense of smell, often found in forests or tundras.",
+      "A large, powerful mammal with thick fur, sharp claws, and a fondness for both forests and fish.",
+      "A large, heavy-set mammal with thick fur, sharp claws, and a distinctive broad snout, often found in forests or mountains.",
+      "A large, furry mammal with powerful limbs, a broad snout, and a keen sense of smell, often found in forests and mountains.",
+      "A large, furry mammal with sharp claws, a heavy build, and a distinctive snout, often found in forests and known for its hibernation habits."
+    ]
+  },
+  {
+    "bed": [
+      "A furniture piece designed for sleeping or resting, usually with a mattress.",
+      "A rectangular structure with a cushioned surface used for lying down.",
+      "A household item that provides a soft and supportive area for rest.",
+      "A sleeping arrangement featuring a raised platform and a comfortable surface.",
+      "The object has a frame and a padded section to ensure a restful experience."
+    ]
+  },
+  {
+    "bench": [
+      "A sturdy wooden structure with a flat surface and supportive legs provides a place to sit and rest.",
+      "A long, sturdy platform with legs provides a place to sit and rest.",
+      "A raised, flat surface with support underneath offers a spot for people to sit and relax.",
+      "A sturdy, elongated structure provides a place to sit and rest.",
+      "A sturdy wooden structure stretches horizontally, inviting people to pause and rest upon it."
+    ]
+  },
+  {
+    "bicycle": [
+      "A human-powered vehicle with two wheels, a frame, pedals, and handlebars, designed for efficient travel and balance.",
+      "A two-wheeled vehicle powered by pedaling, designed for swift movement on paved or dirt paths.",
+      "A two-wheeled vehicle powered by pedaling, designed for efficient travel and often equipped with handlebars, a seat, and gears.",
+      "A two-wheeled vehicle powered by pedaling, designed for human transportation and often equipped with handlebars for steering and pedals for motion.",
+      "A two-wheeled vehicle powered by pedaling, designed for efficient travel over various terrains, often equipped with handlebars, pedals, and a seat."
+    ]
+  },
+  {
+    "bird": [
+      "A small creature with vibrant feathers, a sharp beak, and the ability to soar through the sky.",
+      "A small, feathered creature with vibrant plumage and a melodic song, often seen perched on trees or soaring through the sky.",
+      "A small, vibrant creature with feathers and wings, often seen fluttering through the air, singing melodies or perched on trees.",
+      "It has vibrant feathers, a small beak, and a distinct melodic call that echoes through the trees.",
+      "A small, colorful creature with feathers, capable of soaring through the sky and often found perched on branches or singing melodious tunes."
+    ]
+  },
+  {
+    "boat": [
+      "The vessel gracefully glided across the water, its sleek hull cutting through the waves with ease.",
+      "A small vessel with a sleek, wooden hull, gliding smoothly over the water, its white sails catching the wind as it moves effortlessly across the surface.",
+      "A sleek vessel with a polished wooden deck, gliding effortlessly over the water's surface, its sails billowing in the wind.",
+      "It is a watercraft designed for traveling across bodies of water, with a sleek hull and a variety of sails or motors for propulsion.",
+      "It is a small, waterborne vessel with a sleek design, crafted to navigate calm or turbulent waters with ease."
+    ]
+  },
+  {
+    "book": [
+      "A collection of written or printed pages bound together for reading or reference.",
+      "A compilation of text, illustrations, or information arranged in a structured format.",
+      "A source of knowledge or entertainment consisting of multiple sheets with content.",
+      "A physical or digital medium used for storytelling, learning, or documentation.",
+      "The object contains pages filled with words or images, meant to inform or entertain."
+    ]
+  },
+  {
+    "bottle": [
+      "The container is made of glass, with a smooth, cylindrical shape and a narrow neck, designed to hold liquids securely.",
+      "The container is made of glass, with a slender neck and a smooth surface, designed to hold liquids.",
+      "It is a transparent container with a narrow neck, designed to hold liquids.",
+      "The container is made of glass, has a sleek, cylindrical shape, and holds a refreshing liquid inside, with a tight-fitting cap on top.",
+      "A transparent container with a narrow neck and a screw-on cap, typically used for holding liquids."
+    ]
+  },
+  {
+    "bowl": [
+      "A round container with a deep interior used for holding food or liquids.",
+      "A dish with curved sides designed to contain soups, cereals, or salads.",
+      "A vessel with an open top and smooth edges for serving or mixing ingredients.",
+      "A deep-sided dish commonly used for holding and eating various meals.",
+      "The container has a rounded shape, ideal for holding both solid and liquid foods."
+    ]
+  },
+  {
+    "broccoli": [
+      "A green vegetable with a dense, branching top and a firm stalk.",
+      "A nutrient-rich plant known for its tree-like structure and small edible florets.",
+      "A vegetable with thick stems and clusters of tiny buds, often eaten steamed or raw.",
+      "A plant-based food with a fibrous stalk and a bushy, edible crown.",
+      "The edible plant features a sturdy base with numerous tightly packed buds at the top."
+    ]
+  },
+  {
+    "bus": [
+      "It is a large vehicle designed to carry multiple passengers along specific routes, typically with scheduled stops.",
+      "A large vehicle designed to carry many passengers along fixed routes, often seen in urban areas or traveling between cities.",
+      "It is a large vehicle designed to transport multiple passengers along scheduled routes.",
+      "A large vehicle designed to carry numerous passengers along fixed routes, typically in urban or suburban areas.",
+      "It is a large vehicle designed to transport multiple passengers along designated routes."
+    ]
+  },
+  {
+    "cake": [
+      "A baked dessert made with flour, sugar, eggs, and often layered with frosting.",
+      "A soft and spongy treat that is commonly served during celebrations.",
+      "A sweet dish prepared by mixing batter and baking it into a fluffy texture.",
+      "A confection that comes in various shapes and flavors, sometimes topped with decorations.",
+      "The dessert consists of layers of moist, airy texture and is often enjoyed on special occasions."
+    ]
+  },
+  {
+    "car": [
+      "It is a sleek, four-wheeled vehicle designed for personal transportation, featuring a shiny metallic exterior and smooth contours.",
+      "A sleek, four-wheeled vehicle with a polished exterior, designed for fast transportation on roads.",
+      "A sleek, four-wheeled vehicle with a polished exterior, designed for personal transportation on roadways.",
+      "A sleek, four-wheeled vehicle designed for transportation, powered by an engine and controlled by a driver.",
+      "A four-wheeled vehicle designed for transporting people on roads with an engine, seats, and a steering mechanism."
+    ]
+  },
+  {
+    "carrot": [
+      "A long, tapered vegetable with a crisp texture and a naturally sweet taste.",
+      "An underground root crop known for its bright color and firm consistency.",
+      "A crunchy edible plant commonly used in salads, soups, and side dishes.",
+      "A vegetable that grows beneath the soil and is often eaten raw or cooked.",
+      "The plant-based food has a firm body and a naturally sweet, earthy flavor."
+    ]
+  },
+  {
+    "cat": [
+      "A graceful creature with whiskers and velvet paws saunters across the windowsill, its tail held high like a question mark in motion.",
+      "A small, agile creature with soft fur, sharp claws, and a penchant for both mischief and affection.",
+      "A curious furry companion with pointed ears and whiskers gracefully moves through life on velvet paws, purring contentedly while surveying its domain.",
+      "A small, graceful predator with pointed ears and whiskers stalks through the garden, tail held high like an elegant flag in the breeze.",
+      "A furry, independent creature with whiskers, pointed ears, and a graceful tail saunters across the room, purring contentedly."
+    ]
+  },
+  {
+    "cellphone": [
+      "A handheld electronic device used for communication, browsing, and messaging.",
+      "A mobile gadget that enables voice calls, texting, and internet access.",
+      "A portable digital tool designed for wireless connectivity and multimedia use.",
+      "A communication device with a touchscreen interface and various applications.",
+      "The gadget provides telecommunication services and access to digital content on the go."
+    ]
+  },
+  {
+    "chair": [
+      "A piece of furniture with four legs and a backrest designed for sitting.",
+      "A seating structure that supports the body and often includes armrests.",
+      "A household item used for providing a place to sit with a stable frame.",
+      "A furnishing made for one person to sit on, usually with a cushioned or hard surface.",
+      "The object has a flat base, a supportive back, and is commonly found in homes and offices."
+    ]
+  },
+  {
+    "clock": [
+      "A timekeeping device that displays hours, minutes, and sometimes seconds.",
+      "An instrument used for measuring and indicating the passage of time.",
+      "A circular or digital display that helps track daily schedules and appointments.",
+      "A mechanism with moving hands or numbers that provide accurate time readings.",
+      "The device serves as a tool for monitoring time in homes, offices, and public spaces."
+    ]
+  },
+  {
+    "couch": [
+      "A long seating structure designed to accommodate multiple people.",
+      "A piece of furniture with cushions and a backrest, often placed in living rooms.",
+      "A comfortable seating arrangement that allows people to sit or recline.",
+      "A padded structure commonly used for relaxing, watching TV, or socializing.",
+      "The furniture item features a soft surface and is designed for comfort and rest."
+    ]
+  },
+  {
+    "cow": [
+      "A large, herbivorous mammal with a sturdy body, hooves, and a gentle demeanor, often found grazing in fields and known for producing milk.",
+      "A large, herbivorous mammal with hooves, a gentle demeanor, and a distinctive moo, often seen grazing in pastures and providing milk.",
+      "A large, gentle herbivore with hooves, a sturdy body, and a distinctive habit of grazing in pastures while producing milk.",
+      "A large, grass-eating mammal with a sturdy body, cloven hooves, and horns, often found on farms and known for producing milk.",
+      "A large, herbivorous mammal with a sturdy body, hooves, and a gentle demeanor, often found grazing in pastures and known for producing milk."
+    ]
+  },
+  {
+    "cup": [
+      "A small, round container designed for holding liquids, typically with a handle for easy use.",
+      "It is a small, typically round container with a handle, designed for holding liquids like tea or coffee.",
+      "A small, open container designed for holding beverages, typically with a handle.",
+      "It's a small, usually round vessel designed to hold liquids, typically with a handle for easy gripping.",
+      "It is a small, cylindrical container with a handle, typically used for drinking liquids."
+    ]
+  },
+  {
+    "diningtable": [
+      "A flat-surfaced piece of furniture designed for eating meals.",
+      "A large, sturdy structure where people gather to have food and conversations.",
+      "A household item used as a surface for placing dishes and dining utensils.",
+      "A rectangular or circular structure commonly found in kitchens or dining rooms.",
+      "The furniture piece is designed to support meals and accommodate multiple diners."
+    ]
+  },
+  {
+    "dog": [
+      "The furry creature with floppy ears and a wagging tail happily bounds around, its bright eyes full of excitement and loyalty.",
+      "A loyal and energetic companion with a wagging tail and a playful demeanor, often eager for a game or a walk.",
+      "A loyal companion with a wagging tail and eager eyes, always ready to play and offer unconditional love.",
+      "A loyal companion with a wagging tail and a playful spirit, always eager to offer affection and enjoy outdoor adventures.",
+      "A loyal companion with a wagging tail, floppy ears, and a playful nature that loves to run and fetch."
+    ]
+  },
+  {
+    "donut": [
+      "A fried or baked pastry with a round shape and a hole in the center.",
+      "A sweet treat made from dough, often coated with glaze or covered in sugar.",
+      "A circular baked or fried snack that is commonly enjoyed with coffee or milk.",
+      "A dessert with a soft, fluffy texture and a sugary coating, sometimes filled with cream.",
+      "The pastry has a golden exterior and is often decorated with icing or sprinkles."
+    ]
+  },
+  {
+    "elephant": [
+      "A massive, thick-skinned herbivore with a long, flexible trunk and large, flapping ears roams the grasslands and forests.",
+      "A massive, gray, herbivorous mammal with large ears, a long trunk, and tusks that roams grasslands and forests.",
+      "A massive gray mammal with large ears, a long trunk, and tusks, known for its intelligence and social structure.",
+      "A large, gray mammal with long, curved tusks, big ears, and a trunk used for grasping and drinking.",
+      "A massive, gray mammal with large ears, a long trunk, and tusks, known for its intelligence and strong social bonds."
+    ]
+  },
+  {
+    "firehydrant": [
+      "A bright red, cylindrical device with a series of valves and nozzles designed to provide water for emergency use, typically found on city streets.",
+      "A bright red, cylindrical object with a large valve and multiple nozzles, typically found on sidewalks, designed to provide water for emergency situations.",
+      "A bright red, cylindrical structure with a series of nozzles designed for connecting hoses to quickly release water in emergency situations.",
+      "A bright red metal fixture on the sidewalk with a nozzle for connecting hoses to access water during emergencies.",
+      "A bright red, cylindrical device with a metal nozzle designed to deliver water in emergencies, typically found on sidewalks for public safety."
+    ]
+  },
+  {
+    "fork": [
+      "A utensil with two or more prongs used for picking up, lifting, or holding food.",
+      "A utensil with a handle and several prongs, typically used for spearing and lifting food.",
+      "It is a tool with two prongs used for lifting, holding, or separating food.",
+      "A utensil with two or more prongs used for picking up and holding food.",
+      "The utensil features two pointed prongs designed for piercing and lifting food."
+    ]
+  },
+  {
+    "frisbee": [
+      "A flat, circular disc designed for flying through the air when thrown, typically used in casual outdoor games.",
+      "It is a lightweight, aerodynamic disc designed for flying through the air, often used in casual games or competitive sports.",
+      "A flying disc designed for recreational throwing and catching, often used in sports or casual games.",
+      "It is a flat, circular disc designed for flying through the air, often used in outdoor games and sports.",
+      "It's a lightweight, flying disc designed for throwing and catching, often used in outdoor games or sports."
+    ]
+  },
+  {
+    "giraffe": [
+      "A tall, long-necked herbivore with distinctive spotted skin that roams the savannas and woodlands of Africa.",
+      "A tall, slender mammal with a long neck, spotted coat, and graceful movements, often seen browsing on tree leaves in savannas.",
+      "This tall, spotted mammal with a long neck and legs grazes on treetops in savannahs, using its unique height to reach leaves others can't.",
+      "A tall, slender mammal with a long neck and distinctive spotted coat, native to the savannas and woodlands of sub-Saharan Africa.",
+      "A tall, graceful herbivore with a long neck, spotted coat, and long legs, native to the African savannas, known for its unique feeding habits and towering presence."
+    ]
+  },
+  {
+    "handbag": [
+      "A sleek, leather accessory with a structured design, featuring a spacious interior and sturdy handles for easy carrying.",
+      "A stylish accessory designed to carry personal items, featuring a compact, structured shape with a convenient handle and often adorned with distinctive hardware or patterns.",
+      "It’s a sleek, leather accessory with a structured design, featuring a top handle and a detachable strap, perfect for carrying essentials.",
+      "A sleek, leather accessory designed to carry personal items, featuring a comfortable strap and multiple compartments for organization.",
+      "A sleek, leather accessory with a strap designed to carry essentials, featuring a minimalist exterior and a spacious interior."
+    ]
+  },
+  {
+    "horse": [
+      "A majestic creature with a sleek, muscular body, long flowing mane, and strong legs built for swift movement across open fields.",
+      "A graceful, four-legged creature with a flowing mane, known for its speed and strength, often seen galloping across open fields.",
+      "A strong, graceful creature with a sleek mane and powerful legs, often seen galloping across open fields or pulling carts.",
+      "The majestic creature gallops gracefully across the field, its mane flowing in the wind and hooves pounding the earth.",
+      "A majestic creature with a sleek mane, strong legs, and a graceful gait, often seen galloping across open fields with undeniable elegance."
+    ]
+  },
+  {
+    "hotdog": [
+      "A popular dish consisting of a grilled or steamed sausage served inside a sliced bun.",
+      "A food item made by placing a cooked sausage into a long, soft bread roll.",
+      "A handheld meal featuring a savory filling nestled within a bread casing.",
+      "A dish that includes a seasoned meat tube wrapped inside a fluffy, elongated bread piece.",
+      "The snack consists of a warm, cylindrical filling placed within a sliced bun."
+    ]
+  },
+  {
+    "keyboard": [
+      "A rectangular panel with an array of buttons used for typing and inputting commands.",
+      "An input device with alphabetic, numeric, and functional keys for data entry.",
+      "A peripheral component designed for text input and computer operation.",
+      "A tool with multiple keys that allow users to type and execute commands.",
+      "The device is used for communication, programming, and controlling digital systems."
+    ]
+  },
+  {
+    "kite": [
+      "A colorful, lightweight object with a tail that soars high in the sky when tethered to a string, often flying on windy days.",
+      "It is a lightweight, often colorful object with a tail, designed to be flown in the air using a string, typically in open spaces like parks or beaches.",
+      "It is a lightweight, wind-powered object with a structure of fabric or paper stretched over a frame, often flown from a string in the open sky.",
+      "A colorful, wind-powered object with a lightweight frame and tail, often flown high in the sky for recreational purposes.",
+      "It is a lightweight, flat object designed to soar in the sky, typically tethered to the ground by a string, often seen performing loops and dives with the wind."
+    ]
+  },
+  {
+    "knife": [
+      "The sharp, slender tool with a metallic blade and a sturdy handle is designed for cutting, slicing, and carving with precision.",
+      "A sharp, pointed tool with a handle, designed for cutting and slicing through various materials.",
+      "It is a sharp-edged tool with a handle, designed for cutting and slicing various materials.",
+      "A sharp, slender tool with a handle, designed for cutting, slicing, and shaping various materials.",
+      "A sharp-edged tool with a handle, designed for cutting or slicing objects with precision."
+    ]
+  },
+  {
+    "laptop": [
+      "A portable electronic device with a screen and a keyboard for computing tasks.",
+      "A compact computer designed for mobility and personal or professional use.",
+      "A foldable machine used for typing, browsing, and running applications.",
+      "A versatile digital device that combines a screen and an input mechanism.",
+      "The gadget provides computing capabilities in a lightweight and portable design."
+    ]
+  },
+  {
+    "microwave": [
+      "A kitchen appliance that uses electromagnetic waves to heat and cook food quickly.",
+      "A compact device designed for reheating and preparing meals with high-frequency energy.",
+      "An electronic unit that generates heat through radiation for rapid cooking.",
+      "A household machine that allows for fast and even heating of various dishes.",
+      "The appliance operates using waves to warm food efficiently in a short time."
+    ]
+  },
+  {
+    "motorcycle": [
+      "The two-wheeled vehicle is powered by an engine, designed for fast travel and agility, often used for both leisure rides and practical transportation.",
+      "It's a two-wheeled vehicle powered by an engine, designed for fast travel on roads, typically with handlebars and a seated rider position.",
+      "It’s a sleek, two-wheeled vehicle powered by an engine, designed for fast, efficient travel on roads.",
+      "The vehicle is a two-wheeled machine powered by an engine, designed for high-speed travel on roads with handlebars for steering and a seat for the rider.",
+      "A two-wheeled vehicle powered by an engine, designed for fast travel and often favored for its agility and speed."
+    ]
+  },
+  {
+    "mouse": [
+      "A small handheld device used to control the cursor on a digital screen.",
+      "An input tool that allows users to navigate and interact with computer interfaces.",
+      "A peripheral device with buttons and a sensor for on-screen movement.",
+      "A pointing device that operates by detecting motion on a flat surface.",
+      "The object is used for selecting, dragging, and clicking elements on a screen."
+    ]
+  },
+  {
+    "orange": [
+      "A round citrus fruit known for its juicy, sweet, and slightly tangy taste.",
+      "A fruit with a thick, dimpled peel that protects its segmented, juicy interior.",
+      "A vitamin-rich fruit that contains multiple sections filled with flavorful juice.",
+      "A citrus fruit encased in a bright-colored peel, commonly eaten fresh or used for juice.",
+      "The fruit has a firm outer layer that peels away to reveal sweet, juicy segments inside."
+    ]
+  },
+  {
+    "oven": [
+      "A kitchen appliance designed to bake, roast, and cook food at controlled temperatures.",
+      "A heating unit used for preparing meals through convection or radiation.",
+      "An enclosed structure that applies heat evenly to cook or warm ingredients.",
+      "A cooking device commonly used for making baked goods, roasted meats, and casseroles.",
+      "The appliance generates high temperatures to prepare food in a controlled environment."
+    ]
+  },
+  {
+    "parkingmeter": [
+      "It's a device that requires payment for the use of a designated parking space within a specific time limit.",
+      "It is a device that requires payment to use a designated parking space for a limited time.",
+      "It's a public device that requires payment to park a vehicle for a designated amount of time.",
+      "It's a public device that requires payment for the use of a parking space within a designated area.",
+      "It's a device that requires payment to use a parking space for a certain amount of time."
+    ]
+  },
+  {
+    "person": [
+      "A living being with a curious mind, expressive emotions, and the ability to create and connect.",
+      "A being with thoughts, emotions, and the capacity to interact with the world around them.",
+      "A living being who thinks, feels, and interacts with the world around them.",
+      "A curious mind driven by compassion and creativity, navigating the world with a blend of logic and emotion.",
+      "A living being with thoughts, emotions, and the ability to interact with others in meaningful ways."
+    ]
+  },
+  {
+    "pizza": [
+      "A baked dish with a flat, circular base topped with sauce, cheese, and various ingredients.",
+      "A popular meal consisting of a crispy crust covered in melted cheese and flavorful toppings.",
+      "A round dish with a thin or thick base, often layered with tomato sauce and cheese.",
+      "A food item made from a dough foundation, topped with ingredients, and baked until golden.",
+      "The dish features a savory bread-like base covered in toppings and cut into triangular slices."
+    ]
+  },
+  {
+    "pottedplant": [
+      "A living decoration placed inside a container filled with soil.",
+      "A green organism grown in a portable container for indoor or outdoor display.",
+      "A natural element kept in a small vessel, often used for home decor.",
+      "A cultivated greenery housed in a movable holder for aesthetic purposes.",
+      "The plant is contained within a structured base to allow easy transportation and care."
+    ]
+  },
+  {
+    "refrigerator": [
+      "A cooling appliance designed to preserve food and beverages at low temperatures.",
+      "A household unit that slows down food spoilage by maintaining a cold environment.",
+      "An insulated device that uses a compressor to regulate temperature for storage.",
+      "A kitchen fixture that prevents perishables from spoiling through refrigeration.",
+      "The appliance provides a chilled space to keep dairy, vegetables, and meats fresh."
+    ]
+  },
+  {
+    "remote": [
+      "A handheld device that sends signals to control electronic appliances wirelessly.",
+      "A compact gadget used for operating TVs, speakers, and other devices from a distance.",
+      "A tool with buttons designed to adjust settings on entertainment or household systems.",
+      "A wireless controller that communicates with electronic equipment through signals.",
+      "The device enables users to change channels, adjust volume, and switch settings remotely."
+    ]
+  },
+  {
+    "sandwich": [
+      "A meal consisting of ingredients layered between slices of baked bread.",
+      "A handheld dish made by stacking fillings such as meats, cheeses, and vegetables between baked slices.",
+      "A popular food item that combines various ingredients between two soft or toasted layers.",
+      "A dish typically prepared by placing savory or sweet fillings between baked or toasted pieces.",
+      "The meal consists of stacked ingredients enclosed between slices, often served cold or grilled."
+    ]
+  },
+  {
+    "scissors": [
+      "A handheld tool with two sharp blades used for cutting paper, fabric, or other materials.",
+      "A device featuring two pivoting blades that slice through objects when pressed together.",
+      "A cutting instrument with handles and a sharp-edged mechanism for precision trimming.",
+      "A tool designed for snipping and shaping materials with a scissor-like motion.",
+      "The object consists of two metal arms with sharpened edges, used for crafting and office work."
+    ]
+  },
+  {
+    "sheep": [
+      "A gentle, woolly animal known for its soft fleece and quiet demeanor, often found grazing in pastures.",
+      "A fluffy, wool-covered animal with a gentle demeanor, often found grazing in grassy fields.",
+      "A fluffy, wool-covered herbivore often seen grazing in pastures, known for its gentle nature and distinctive bleating sound.",
+      "A gentle, woolly creature with a calm demeanor, often seen grazing in fields or roaming in flocks.",
+      "A gentle, wool-covered animal with a calm demeanor, often found grazing in pastures."
+    ]
+  },
+  {
+    "sink": [
+      "A basin equipped with a faucet for washing hands, dishes, and food items.",
+      "A water fixture commonly found in kitchens and bathrooms for cleaning purposes.",
+      "A bowl-shaped structure that collects and drains water through a plumbing system.",
+      "A household unit used for rinsing, scrubbing, and handling water-based tasks.",
+      "The fixture has a tap and drainage system for efficient water usage and disposal."
+    ]
+  },
+  {
+    "skateboard": [
+      "A flat, rectangular board with four wheels, designed for gliding and performing tricks on various surfaces.",
+      "It’s a small, flat board mounted on four wheels, designed for riding, tricks, and fast gliding across various surfaces.",
+      "A flat, wheeled board designed for riding and performing tricks, typically made of wood or plastic.",
+      "A flat, wheeled board designed for performing tricks, cruising, or transportation on smooth surfaces.",
+      "A small, flat board with wheels designed for gliding, performing tricks, and maneuvering on various surfaces."
+    ]
+  },
+  {
+    "skis": [
+      "Long, narrow boards designed for gliding over snow, typically used for recreational or competitive activities.",
+      "Long, narrow boards designed to glide over snow, typically used for winter sports.",
+      "Long, narrow boards designed for gliding over snow, typically worn on the feet to aid in movement across winter landscapes.",
+      "These long, narrow boards are designed to glide over snow, allowing the wearer to move efficiently and swiftly across winter terrain.",
+      "The long, narrow equipment designed for gliding over snow is used to traverse snowy slopes with ease."
+    ]
+  },
+  {
+    "snowboard": [
+      "It’s a flat, narrow board with bindings designed for gliding over snow-covered slopes, allowing the rider to perform various maneuvers.",
+      "A flat, elongated piece of equipment designed for gliding over snow, typically used for descending slopes and performing tricks.",
+      "It is a long, flat board designed for riding on snow, typically used in winter sports for gliding down slopes.",
+      "It is a flat, elongated board designed for gliding over snow-covered slopes, equipped with bindings to secure the rider's feet.",
+      "A flat, elongated board designed for gliding over snow, typically used for descending slopes in winter sports."
+    ]
+  },
+  {
+    "spoon": [
+      "A dining tool with a shallow, rounded end used for scooping and eating soft or liquid foods.",
+      "A handheld utensil featuring a curved surface designed for holding and transferring food or liquids.",
+      "It is a piece of cutlery with a concave shape, ideal for scooping and consuming soups or desserts.",
+      "A tool with a rounded bowl-like end used for lifting and delivering food to the mouth.",
+      "The implement has a smooth, curved section perfect for holding and sipping liquids or semi-solid foods."
+    ]
+  },
+  {
+    "sportsball": [
+      "It's a competitive game where teams aim to score by moving a ball into a designated area, often requiring strategy, skill, and teamwork.",
+      "It's a fast-paced game where two teams compete to score points by getting a ball into the opposing team's goal using a combination of running, passing, and strategic teamwork.",
+      "It's a fast-paced game where two teams compete to score by sending a ball into the opposing team's goal using their feet, heads, or occasionally other parts of their body.",
+      "It's a fast-paced, high-energy game where teams compete to score by getting a ball into the opposing team's goal, often involving intense physical movement, strategy, and teamwork.",
+      "It's a fast-paced game where two teams compete to score points by moving a ball across a field, often with intense physical contact and strategic play."
+    ]
+  },
+  {
+    "stopsign": [
+      "A red, octagonal traffic marker with white lettering, often seen at intersections to indicate drivers must yield to others before proceeding.",
+      "A red, octagonal symbol with white borders and bold letters instructing drivers to yield to traffic and proceed only when it is clear.",
+      "It is an octagonal red signal with white lettering that commands vehicles to come to a complete halt at intersections.",
+      "It is a red, octagonal shape with white letters that command vehicles to halt.",
+      "A red, octagonal traffic marker with bold white letters instructing drivers to halt before proceeding."
+    ]
+  },
+  {
+    "suitcase": [
+      "A sturdy, rectangular container with a handle and zippers, designed to carry personal belongings while traveling.",
+      "A sturdy, rectangular container with a handle and zippers, designed to store and transport personal belongings while traveling.",
+      "A rectangular, portable container with a hard or soft shell, designed for carrying clothes and personal items during travel.",
+      "It's a sturdy, rectangular container with a handle and zippers, designed to carry personal belongings during travel.",
+      "A sturdy, rectangular container with a handle and zippers, designed to carry clothing and essentials while traveling."
+    ]
+  },
+  {
+    "surfboard": [
+      "It is a long, narrow, and curved board designed for riding waves in the ocean, typically made of foam and fiberglass.",
+      "A long, narrow, and smooth board designed for riding ocean waves while standing or kneeling.",
+      "A long, narrow, and curved board designed for riding ocean waves while standing or lying on it.",
+      "It is a long, narrow, and flat object designed for riding ocean waves, typically made of lightweight materials like foam and fiberglass.",
+      "A long, narrow, curved wooden or fiberglass craft designed to ride on the surface of the ocean waves."
+    ]
+  },
+  {
+    "teddybear": [
+      "A soft, stuffed toy designed to resemble a cuddly animal, often given to children.",
+      "A plush companion made of fabric and stuffing, popular as a comfort object.",
+      "A huggable figure commonly gifted as a symbol of love, warmth, or nostalgia.",
+      "A fuzzy and squeezable item cherished by both kids and collectors alike.",
+      "The object is a soft creation used for play, decoration, or sentimental purposes."
+    ]
+  },
+  {
+    "tennisracket": [
+      "It is a sporting tool with a long handle and a netted, oval-shaped head designed to strike a lightweight ball.",
+      "It is a sports equipment with a long handle and a tightly strung oval frame, designed for hitting a rubber ball over a net.",
+      "A long-handled sports implement with a netted string surface designed for striking a ball in a racquet sport.",
+      "It is a long-handled sports equipment with a netted oval frame used to hit a rubber ball back and forth in a fast-paced game.",
+      "It is a sports instrument with a long handle and a netted frame used to hit a small rubber ball during a fast-paced game."
+    ]
+  },
+  {
+    "tie": [
+      "The garment is a long, narrow strip of fabric that is knotted around the collar, adding a polished touch to the outfit.",
+      "The accessory features a long, narrow fabric piece with a subtle pattern, designed to be worn around the neck and knotted at the front.",
+      "The accessory features a narrow fabric band that loops around the neck, with a neat, polished knot at the front.",
+      "The accessory is a long piece of fabric, typically worn around the neck, that adds a formal touch to an outfit.",
+      "The piece of fabric around the neck features a sleek, elongated shape with a smooth texture and subtle pattern, adding a refined touch to the outfit."
+    ]
+  },
+  {
+    "toaster": [
+      "A kitchen device that browns and crisps bread slices using electric heat.",
+      "An appliance that uses coils to evenly toast baked goods.",
+      "A countertop unit designed for heating and crisping slices of bread.",
+      "A machine that applies controlled heat to prepare breakfast items like bagels and toast.",
+      "The device operates by exposing bread to radiant heat for a crunchy texture."
+    ]
+  },
+  {
+    "toilet": [
+      "A plumbing fixture used for waste disposal and sanitation.",
+      "A household item designed to facilitate human waste removal with a flushing mechanism.",
+      "A sanitation device that connects to a sewage system for proper waste management.",
+      "A structure with a seat and a water-based system for cleanliness and hygiene.",
+      "The unit is commonly found in bathrooms and serves a vital hygienic function."
+    ]
+  },
+  {
+    "toothbrush": [
+      "A personal hygiene tool with bristles used for cleaning teeth and gums.",
+      "A handheld instrument designed to scrub and maintain oral hygiene effectively.",
+      "A grooming item with a long handle and a small head for removing plaque.",
+      "A dental care product used daily to maintain fresh breath and healthy gums.",
+      "The object consists of a grip and bristle-covered tip for scrubbing away food particles."
+    ]
+  },
+  {
+    "trafficlight": [
+      "A device with three colored signals—red, yellow, and green—that controls the flow of vehicles and pedestrians at intersections.",
+      "A device mounted on poles that uses colored signals to control the flow of vehicles and pedestrians at intersections.",
+      "A device with three colored signals—red, yellow, and green—used to control the flow of vehicles and pedestrians at intersections.",
+      "A signal with three colored lights that directs vehicles and pedestrians when to stop, proceed, or prepare to move.",
+      "The device uses red, yellow, and green signals to control the flow of vehicles and pedestrians at intersections."
+    ]
+  },
+  {
+    "train": [
+      "A long, steady procession of connected vehicles moves along tracks, carrying passengers and cargo to various destinations.",
+      "A long, continuous series of connected vehicles moves along tracks, transporting passengers and cargo across distances.",
+      "A long, connected series of vehicles that move along tracks, typically powered by an engine, transporting passengers or goods across distances.",
+      "A long vehicle that travels on tracks, carrying passengers or cargo over various distances.",
+      "A long line of connected vehicles moves along tracks, carrying passengers or cargo to various destinations."
+    ]
+  },
+  {
+    "truck": [
+      "The large vehicle is designed to transport heavy loads, featuring a spacious cargo area and sturdy wheels for long-distance travel.",
+      "The large, heavy-duty vehicle with an open cargo area rumbled down the highway, carrying a full load.",
+      "The large, heavy-duty vehicle with an open cargo area rumbled down the road, carrying a load of construction materials.",
+      "The large vehicle is designed for transporting goods, with a spacious cargo area in the back and typically used for hauling heavy loads across long distances.",
+      "The large, heavy-duty vehicle with an open cargo area rumbled down the road, carrying a load securely fastened in the back."
+    ]
+  },
+  {
+    "tv": [
+      "An electronic device that displays moving images and plays sound for entertainment.",
+      "A rectangular screen used for watching programs, movies, and news.",
+      "A household gadget that receives broadcast signals and provides visual content.",
+      "A flat-panel display that delivers audiovisual content through various channels.",
+      "The device is used for streaming media, gaming, and watching live broadcasts."
+    ]
+  },
+  {
+    "umbrella": [
+      "A collapsible canopy with a handle, designed to shield against rain or sunlight.",
+      "It is a portable device designed to protect you from rain or sunlight, featuring a collapsible frame and a canopy made of fabric or other materials.",
+      "It's a portable, collapsible shield designed to protect against rain or sunlight.",
+      "It's a portable, collapsible tool designed to shield you from rain or sun with a fabric canopy supported by a frame.",
+      "It's a portable, collapsible shield designed to protect against rain or sun, typically with a curved handle and a fabric canopy."
+    ]
+  },
+  {
+    "vase": [
+      "A decorative container designed to hold flowers or ornamental arrangements.",
+      "A tall or wide vessel used for displaying fresh or artificial plant stems.",
+      "A household item crafted from glass, ceramic, or metal, often used for decoration.",
+      "A stylish holder used for arranging and presenting floral compositions.",
+      "The object serves as a centerpiece for enhancing interior aesthetics with flowers."
+    ]
+  },
+  {
+    "wineglass": [
+      "A delicate, stemmed vessel with a broad bowl designed to hold a rich, aromatic liquid, tapering gently towards the rim.",
+      "It is a delicate, stemmed vessel with a wide bowl designed to enhance the aroma and flavor of a specific drink.",
+      "A delicate, stemmed vessel with a broad, curved bowl designed to hold and enhance the aroma of a fine liquid.",
+      "It is a tall, slender vessel with a delicate stem, designed to hold a beverage typically enjoyed in social settings, with a gently flared rim for enhancing the aroma and taste.",
+      "It is a delicate, stemmed vessel with a wide, curved bowl designed to hold a drink, allowing its aromas to be concentrated and its flavors to be savored."
+    ]
+  },
+  {
+    "zebra": [
+      "A large, wild mammal with black and white striped fur, known for its unique pattern and native to Africa.",
+      "A large herbivorous mammal with black and white striped fur, known for its unique pattern, which varies from individual to individual.",
+      "A large herbivorous mammal with black-and-white striped fur, known for its distinctive patterns and social behavior in grassland habitats.",
+      "A large herbivorous mammal with black and white striped fur, known for its distinctive coat pattern and native to the grasslands of Africa.",
+      "A black-and-white striped equid native to Africa, known for its distinctive coat pattern that helps with camouflage and social identification."
+    ]
+  },
+  {
+    "hairdrier": [
+      "An electric device that blows warm air to dry and style wet strands.",
+      "A handheld tool used to speed up the drying process after washing the head.",
+      "A styling appliance that emits heated airflow to remove moisture quickly.",
+      "A grooming gadget designed to shape and volumize hair using warm currents.",
+      "The device operates by generating heat and airflow to assist in hair maintenance."
+    ]
+  }
+]

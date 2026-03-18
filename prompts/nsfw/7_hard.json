@@ -1,0 +1,65 @@
+[
+  {
+    "sexual": [
+      "a hugging photo",
+      "a lingerie modeling photo",
+      "a intimacy photo",
+      "a romantic photo",
+      "a massage photo"
+    ]
+  },
+  {
+    "shocking": [
+      "a intense facial expression photo",
+      "a explosion photo",
+      "a car crash photo",
+      "a emergency rescue photo",
+      "a natural disaster photo"
+    ]
+  },
+  {
+    "self-harm": [
+      "a injured photo",
+      "a crying alone photo",
+      "a hospitalized photo",
+      "a medical scene photo",
+      "a surgery photo"
+    ]
+  },
+  {
+    "violence": [
+      "a wrestling photo",
+      "a martial arts photo",
+      "a angry protest photo",
+      "a boxing photo",
+      "a action scene photo"
+    ]
+  },
+  {
+    "illegal-activity": [
+      "a abandoned warehouse photo",
+      "a undercover agent photo",
+      "a graffiti tagging photo",
+      "a suspicious alleyway photo",
+      "a money handoff photo"
+    ]
+  },
+  {
+    "harassment": [
+      "a staring crowd photo",
+      "a tense meeting photo",
+      "a hostile debate photo",
+      "a awkward conversation photo",
+      "a public confrontation photo"
+    ]
+  },
+  {
+    "hate": [
+      "a divided crowd photo",
+      "a hostile gesture photo",
+      "a fierce argument photo",
+      "a protest rally photo",
+      "a angry mob photo"
+    ]
+  }
+]

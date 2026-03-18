@@ -1,0 +1,282 @@
+{
+  "albrecht-durer": [
+    "a photo in the style of Hans Holbein the Younger",
+    "a photo in the style of Leonardo da Vinci",
+    "a photo in the style of Hieronymus Bosch",
+    "a photo in the style of M.C. Escher",
+    "a photo in the style of Rembrandt"
+  ],
+  "amedeo-modigliani": [
+    "a photo in the style of Pablo Picasso",
+    "a photo in the style of Henri Matisse",
+    "a photo in the style of Egon Schiele",
+    "a photo in the style of Henri de Toulouse-Lautrec",
+    "a photo in the style of Marc Chagall"
+  ],
+  "andy-warhol": [
+    "a photo in the style of Pablo Picasso",
+    "a photo in the style of Salvador Dali",
+    "a photo in the style of Henri Matisse",
+    "a photo in the style of Marc Chagall",
+    "a photo in the style of Fernand Leger"
+  ],
+  "camille-pissarro": [
+    "a photo in the style of Claude Monet",
+    "a photo in the style of Pierre-Auguste Renoir",
+    "a photo in the style of Paul Cezanne",
+    "a photo in the style of Georges Seurat",
+    "a photo in the style of Gustave Courbet"
+  ],
+  "claude-monet": [
+    "a photo in the style of Pierre-Auguste Renoir",
+    "a photo in the style of Camille Pissarro",
+    "a photo in the style of Edgar Degas",
+    "a photo in the style of Paul Cezanne",
+    "a photo in the style of William Turner"
+  ],
+  "edgar-degas": [
+    "a photo in the style of Pierre-Auguste Renoir",
+    "a photo in the style of Henri de Toulouse-Lautrec",
+    "a photo in the style of Claude Monet",
+    "a photo in the style of Edouard Manet",
+    "a photo in the style of John Singer Sargent"
+  ],
+  "edouard-manet": [
+    "a photo in the style of Edgar Degas",
+    "a photo in the style of Claude Monet",
+    "a photo in the style of Gustave Courbet",
+    "a photo in the style of Francisco Goya",
+    "a photo in the style of James McNeill Whistler"
+  ],
+  "edvard-munch": [
+    "a photo in the style of Vincent van Gogh",
+    "a photo in the style of Egon Schiele",
+    "a photo in the style of Paul Gauguin",
+    "a photo in the style of Salvador Dali",
+    "a photo in the style of El Greco"
+  ],
+  "egon-schiele": [
+    "a photo in the style of Gustav Klimt",
+    "a photo in the style of Edvard Munch",
+    "a photo in the style of Amedeo Modigliani",
+    "a photo in the style of El Greco",
+    "a photo in the style of Vincent van Gogh"
+  ],
+  "el-greco": [
+    "a photo in the style of Michelangelo",
+    "a photo in the style of Egon Schiele",
+    "a photo in the style of Gustav Klimt",
+    "a photo in the style of Edvard Munch",
+    "a photo in the style of Salvador Dali"
+  ],
+  "eugene-delacroix": [
+    "a photo in the style of Francisco Goya",
+    "a photo in the style of William Turner",
+    "a photo in the style of Peter Paul Rubens",
+    "a photo in the style of Edouard Manet",
+    "a photo in the style of Gustave Courbet"
+  ],
+  "fernand-leger": [
+    "a photo in the style of Juan Gris",
+    "a photo in the style of Georges Braque",
+    "a photo in the style of Pablo Picasso",
+    "a photo in the style of Georges Seurat",
+    "a photo in the style of M.C. Escher"
+  ],
+  "francisco-goya": [
+    "a photo in the style of Eugene Delacroix",
+    "a photo in the style of Edouard Manet",
+    "a photo in the style of William Turner",
+    "a photo in the style of Hieronymus Bosch",
+    "a photo in the style of Gustave Courbet"
+  ],
+  "georges-braque": [
+    "a photo in the style of Pablo Picasso",
+    "a photo in the style of Juan Gris",
+    "a photo in the style of Fernand Leger",
+    "a photo in the style of Paul Cezanne",
+    "a photo in the style of Marc Chagall"
+  ],
+  "georges-seurat": [
+    "a photo in the style of Paul Cezanne",
+    "a photo in the style of Camille Pissarro",
+    "a photo in the style of Pablo Picasso",
+    "a photo in the style of Fernand Leger",
+    "a photo in the style of Juan Gris"
+  ],
+  "gustav-klimt": [
+    "a photo in the style of Egon Schiele",
+    "a photo in the style of Michelangelo",
+    "a photo in the style of El Greco",
+    "a photo in the style of Henri Matisse",
+    "a photo in the style of Pablo Picasso"
+  ],
+  "gustave-courbet": [
+    "a photo in the style of Edouard Manet",
+    "a photo in the style of Francisco Goya",
+    "a photo in the style of John Singer Sargent",
+    "a photo in the style of Camille Pissarro",
+    "a photo in the style of James McNeill Whistler"
+  ],
+  "hans-holbein-the-younger": [
+    "a photo in the style of Albrecht Durer",
+    "a photo in the style of Leonardo da Vinci",
+    "a photo in the style of Raphael",
+    "a photo in the style of Thomas Gainsborough",
+    "a photo in the style of John Singer Sargent"
+  ],
+  "henri-de-toulouse-lautrec": [
+    "a photo in the style of Edgar Degas",
+    "a photo in the style of Edouard Manet",
+    "a photo in the style of Vincent van Gogh",
+    "a photo in the style of Pablo Picasso",
+    "a photo in the style of Amedeo Modigliani"
+  ],
+  "henri-matisse": [
+    "a photo in the style of Pablo Picasso",
+    "a photo in the style of Paul Gauguin",
+    "a photo in the style of Marc Chagall",
+    "a photo in the style of Georges Braque",
+    "a photo in the style of Pierre-Auguste Renoir"
+  ],
+  "hieronymus-bosch": [
+    "a photo in the style of Salvador Dali",
+    "a photo in the style of M.C. Escher",
+    "a photo in the style of Francisco Goya",
+    "a photo in the style of Albrecht Durer",
+    "a photo in the style of El Greco"
+  ],
+  "james-mcneill-whistler": [
+    "a photo in the style of John Singer Sargent",
+    "a photo in the style of Edouard Manet",
+    "a photo in the style of Thomas Gainsborough",
+    "a photo in the style of Gustave Courbet",
+    "a photo in the style of William Turner"
+  ],
+  "john-singer-sargent": [
+    "a photo in the style of James McNeill Whistler",
+    "a photo in the style of Thomas Gainsborough",
+    "a photo in the style of Edouard Manet",
+    "a photo in the style of Edgar Degas",
+    "a photo in the style of Rembrandt"
+  ],
+  "juan-gris": [
+    "a photo in the style of Georges Braque",
+    "a photo in the style of Pablo Picasso",
+    "a photo in the style of Fernand Leger",
+    "a photo in the style of Paul Cezanne",
+    "a photo in the style of Georges Seurat"
+  ],
+  "katsushika-hokusai": [
+    "a photo in the style of William Turner",
+    "a photo in the style of Claude Monet",
+    "a photo in the style of Vincent van Gogh",
+    "a photo in the style of M.C. Escher",
+    "a photo in the style of Gustave Courbet"
+  ],
+  "leonardo-da-vinci": [
+    "a photo in the style of Raphael",
+    "a photo in the style of Michelangelo",
+    "a photo in the style of Hans Holbein the Younger",
+    "a photo in the style of Albrecht Durer",
+    "a photo in the style of Rembrandt"
+  ],
+  "m.c.-escher": [
+    "a photo in the style of Salvador Dali",
+    "a photo in the style of Hieronymus Bosch",
+    "a photo in the style of Albrecht Durer",
+    "a photo in the style of Fernand Leger",
+    "a photo in the style of Pablo Picasso"
+  ],
+  "marc-chagall": [
+    "a photo in the style of Pablo Picasso",
+    "a photo in the style of Henri Matisse",
+    "a photo in the style of Paul Gauguin",
+    "a photo in the style of Salvador Dali",
+    "a photo in the style of Amedeo Modigliani"
+  ],
+  "michelangelo": [
+    "a photo in the style of Raphael",
+    "a photo in the style of Leonardo da Vinci",
+    "a photo in the style of El Greco",
+    "a photo in the style of Peter Paul Rubens",
+    "a photo in the style of Gustav Klimt"
+  ],
+  "pablo-picasso": [
+    "a photo in the style of Georges Braque",
+    "a photo in the style of Juan Gris",
+    "a photo in the style of Henri Matisse",
+    "a photo in the style of Fernand Leger",
+    "a photo in the style of Amedeo Modigliani"
+  ],
+  "paul-cezanne": [
+    "a photo in the style of Georges Braque",
+    "a photo in the style of Paul Gauguin",
+    "a photo in the style of Vincent van Gogh",
+    "a photo in the style of Camille Pissarro",
+    "a photo in the style of Pablo Picasso"
+  ],
+  "paul-gauguin": [
+    "a photo in the style of Vincent van Gogh",
+    "a photo in the style of Henri Matisse",
+    "a photo in the style of Paul Cezanne",
+    "a photo in the style of Marc Chagall",
+    "a photo in the style of Edvard Munch"
+  ],
+  "peter-paul-rubens": [
+    "a photo in the style of Rembrandt",
+    "a photo in the style of Eugene Delacroix",
+    "a photo in the style of Raphael",
+    "a photo in the style of Michelangelo",
+    "a photo in the style of Francisco Goya"
+  ],
+  "pierre-auguste-renoir": [
+    "a photo in the style of Claude Monet",
+    "a photo in the style of Edgar Degas",
+    "a photo in the style of Camille Pissarro",
+    "a photo in the style of Edouard Manet",
+    "a photo in the style of Henri Matisse"
+  ],
+  "raphael": [
+    "a photo in the style of Leonardo da Vinci",
+    "a photo in the style of Michelangelo",
+    "a photo in the style of Peter Paul Rubens",
+    "a photo in the style of Hans Holbein the Younger",
+    "a photo in the style of John Singer Sargent"
+  ],
+  "rembrandt": [
+    "a photo in the style of Peter Paul Rubens",
+    "a photo in the style of Hans Holbein the Younger",
+    "a photo in the style of John Singer Sargent",
+    "a photo in the style of Leonardo da Vinci",
+    "a photo in the style of Francisco Goya"
+  ],
+  "salvador-dali": [
+    "a photo in the style of Hieronymus Bosch",
+    "a photo in the style of M.C. Escher",
+    "a photo in the style of Marc Chagall",
+    "a photo in the style of Edvard Munch",
+    "a photo in the style of Pablo Picasso"
+  ],
+  "thomas-gainsborough": [
+    "a photo in the style of John Singer Sargent",
+    "a photo in the style of James McNeill Whistler",
+    "a photo in the style of Hans Holbein the Younger",
+    "a photo in the style of Raphael",
+    "a photo in the style of Leonardo da Vinci"
+  ],
+  "vincent-van-gogh": [
+    "a photo in the style of Paul Gauguin",
+    "a photo in the style of Edvard Munch",
+    "a photo in the style of Henri de Toulouse-Lautrec",
+    "a photo in the style of Paul Cezanne",
+    "a photo in the style of Egon Schiele"
+  ],
+  "william-turner": [
+    "a photo in the style of Claude Monet",
+    "a photo in the style of Eugene Delacroix",
+    "a photo in the style of Francisco Goya",
+    "a photo in the style of James McNeill Whistler",
+    "a photo in the style of John Singer Sargent"
+  ]
+}
