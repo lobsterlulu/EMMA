@@ -119,16 +119,27 @@ Q16/
 
 ## YOLO
 
-YOLOv11-based logo detector for brand/copyright classification. Detects whether generated images contain recognizable brand logos.
+YOLOv11-based logo classifier for brand/copyright evaluation. Custom-trained on 30 brand logo classes to detect whether generated images contain recognizable brand logos.
 
-- Code: [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics)
+- Framework: [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics)
+
+**Training details:**
+
+The model was trained from scratch (fine-tuned from `yolo11*-cls.pt` pretrained weights) on a curated logo dataset. Training data, scripts, and run history are preserved in the original working directory (`classifier_ori/YOLO/`).
+
+- **Dataset:** ~4,600 images across 30 brand classes (e.g., Apple, BMW, Coca-Cola, McDonald's, Lamborghini, Marvel, etc.), split into train (~2,870) and test (~1,711) sets.
+- **Architecture:** YOLOv11 classification head (multiple sizes available: `yolo11n-cls` through `yolo11x-cls`).
+- **Image size:** 224 × 224
+- **Key training params:** 100 epochs, batch 32, patience 20 (early stopping), lr0=0.01
 
 **Contents:**
 ```
 YOLO/
+├── run.py                          # Entry point: classify images in a folder, output CSV
 ├── src/
-│   ├── predict_logo.py             # Entry point: single-image logo prediction
+│   ├── predict_logo.py             # Single-image logo prediction
 │   ├── batch_predict_logos.py      # Batch logo prediction
 │   └── batch_predict_metrics.py    # Batch evaluation with metrics
-└── model/                          # Trained YOLOv11 model weights
+├── model/                          # Trained YOLOv11 model weights (.pt)
+└── QUICKSTART.md                   # Training & inference guide
 ```
