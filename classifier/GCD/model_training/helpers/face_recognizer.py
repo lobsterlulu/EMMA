@@ -44,7 +44,6 @@ class FaceRecognizer(object):
                                  for i in range(len(embeddings))])
         is_known = variable_to_numpy(confidences) * similarities
 
-        # get classes centers and their weights
         classes = variable_to_numpy(classes)
         counter = Counter(classes)
         weights = np.array(list(counter.values()), dtype=float)
@@ -55,7 +54,6 @@ class FaceRecognizer(object):
                 if unique_class == cl:
                     centers_deduped.append(center)
                     break
-        # perform gmm clustering with initialized centers and weights of each known class
         clusters = clusterize(embeddings,
                               centers=centers_deduped,
                               weights=weights,

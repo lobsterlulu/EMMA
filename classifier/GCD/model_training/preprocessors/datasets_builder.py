@@ -75,8 +75,6 @@ class DatasetsBuilder(object):
             repeat(target_dataset_path)
         )
 
-        # there is an unknown conflict with mac os, cv2 and multiprocessing pool
-        # TODO: create a context for this using 'with'
         if platform.system() == 'Darwin':
             for p in process_params:
                 self.process_images_batch(p)
@@ -119,8 +117,6 @@ class DatasetsBuilder(object):
             gpu_memory_fraction=(1 / builder.pool_size)
         )
 
-        # we set num_workers to 0 so data loader works in sync way without multiprocessing usage
-        # because of "AssertionError: daemonic processes are not allowed to have children" error
         loader = DataLoader(
             RawDataset(image_paths),
             batch_size=32,

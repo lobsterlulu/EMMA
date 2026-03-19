@@ -44,8 +44,7 @@ def initialize_model_imagenet(num_classes, language_model, device,
 
 def initialize_model_imagenet_(num_classes, feature_extract, use_pretrained=True,
                                feature_extraction_forward=False):
-    # Initialize these variables which will be set in this if statement. Each of these
-    #   variables is model specific.
+
     model_ft = models.resnet50(pretrained=use_pretrained)
     set_parameter_requires_grad(model_ft, feature_extract)
     num_ftrs = model_ft.fc.in_features

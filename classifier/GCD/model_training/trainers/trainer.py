@@ -147,8 +147,6 @@ class Trainer(object):
             os.path.join(self.weights_path, f'{prefix}_model_states.pkl')
         )
 
-        # TODO: investigate whether we can save the model without several attributes
-        # torch.save(self.model, os.path.join(self.weights_path, f'{prefix}_model_object_snapshot.pkl'))
 
     def _cast(self, x):
         return x.cuda() if self.use_cuda else x

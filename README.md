@@ -1,6 +1,8 @@
 # EMMA
 
-Evaluation toolkit for measuring concept erasure in text-to-image diffusion models. Provides classifiers for detecting whether target concepts appear in generated images, and prompt sets for systematically probing erasure across multiple domains.
+[![arXiv](https://img.shields.io/badge/arXiv-2512.17320-b31b1b.svg)](https://arxiv.org/abs/2512.17320)
+
+Evaluation for measuring concept erasure in text-to-image diffusion models. Provides classifiers for detecting whether target concepts appear in generated images, and prompt sets for systematically probing erasure across multiple domains.
 
 ## Components
 
