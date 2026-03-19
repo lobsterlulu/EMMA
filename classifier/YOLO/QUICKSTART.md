@@ -1,36 +1,36 @@
-# YOLOv11 Logo分类完整流程
+# YOLOv11 Logo Classification Complete Workflow
 
-## 📦 已提供的文件
+## Provided Files
 
-1. **prepare_yolo_dataset_enhanced.py** - 数据集准备脚本（已运行）
-2. **train_yolo_classifier.py** - 完整训练脚本
-3. **train_simple.py** - 简化训练脚本
-4. **train_logo_oneclick.sh** - 一键训练脚本（推荐）
-5. **predict_logo.py** - 推理预测脚本
-6. **check_environment.py** - 环境检查脚本
-7. **README_YOLO_TRAINING.md** - 详细使用文档
+1. **prepare_yolo_dataset_enhanced.py** - Dataset preparation script (already run)
+2. **train_yolo_classifier.py** - Full training script
+3. **train_simple.py** - Simplified training script
+4. **train_logo_oneclick.sh** - One-click training script (recommended)
+5. **predict_logo.py** - Inference prediction script
+6. **check_environment.py** - Environment check script
+7. **README_YOLO_TRAINING.md** - Detailed usage documentation
 
-## 🚀 快速开始（3步走）
+## Quick Start (3 Steps)
 
-### 第1步：检查环境
+### Step 1: Check Environment
 
 ```bash
 cd /home1/lu-wei/repo/EMMA/classifier/YOLO
 python check_environment.py
 ```
 
-如果显示"所有检查通过"，继续下一步。
+If it shows "All checks passed", continue to the next step.
 
-### 第2步：开始训练
+### Step 2: Start Training
 
 ```bash
-# 方式1：一键训练（最简单）
+# Option 1: One-click training (simplest)
 ./train_logo_oneclick.sh
 
-# 方式2：Python脚本
+# Option 2: Python script
 python train_simple.py
 
-# 方式3：命令行
+# Option 3: Command line
 yolo classify train \
     data=logo_dataset_35_enhanced \
     model=yolo11s-cls.pt \
@@ -40,53 +40,53 @@ yolo classify train \
     device=0
 ```
 
-### 第3步：验证和预测
+### Step 3: Validate and Predict
 
 ```bash
-# 验证模型
+# Validate model
 python predict_logo.py \
     --model runs/classify/logo_35_xxx/weights/best.pt \
     --mode val
 
-# 预测单张图片
+# Predict a single image
 python predict_logo.py \
     --model runs/classify/logo_35_xxx/weights/best.pt \
     --source test.jpg \
     --mode single
 ```
 
-## 📊 训练配置建议
+## Training Configuration Suggestions
 
-### 根据显存选择配置
+### Choose Configuration Based on GPU Memory
 
-| 显存 | 模型 | Batch Size | 预计时间 |
+| GPU Memory | Model | Batch Size | Estimated Time |
 |------|------|------------|----------|
-| 4GB | yolo11n-cls | 8-16 | 60-90分钟 |
-| 8GB | yolo11s-cls | 16-32 | 45-60分钟 |
-| 12GB | yolo11m-cls | 32-64 | 60-90分钟 |
-| 24GB | yolo11l-cls | 64-128 | 90-120分钟 |
+| 4GB | yolo11n-cls | 8-16 | 60-90 minutes |
+| 8GB | yolo11s-cls | 16-32 | 45-60 minutes |
+| 12GB | yolo11m-cls | 32-64 | 60-90 minutes |
+| 24GB | yolo11l-cls | 64-128 | 90-120 minutes |
 
-**推荐配置（你的情况）**：
-- 模型：**yolo11s-cls** 或 **yolo11m-cls**
-- Batch size：**32**
-- Epochs：**100**
-- 预计Top-1准确率：**75-85%**
+**Recommended configuration**:
+- Model: **yolo11s-cls** or **yolo11m-cls**
+- Batch size: **32**
+- Epochs: **100**
+- Expected Top-1 accuracy: **75-85%**
 
-## 📁 目录结构
+## Directory Structure
 
 ```
 /home1/lu-wei/repo/EMMA/classifier/YOLO/
 │
-├── logo_dataset_35_enhanced/       ← 数据集（已准备好）
-│   ├── train/                      ← 训练集：2849张图片
+├── logo_dataset_35_enhanced/       ← Dataset (already prepared)
+│   ├── train/                      ← Training set: 2849 images
 │   │   ├── Apple/
 │   │   ├── BMW/
-│   │   └── ... (35个品牌)
-│   └── test/                       ← 测试集：729张图片
+│   │   └── ... (35 brands)
+│   └── test/                       ← Test set: 729 images
 │       ├── Apple/
 │       └── ...
 │
-├── src/                            ← 代码文件
+├── src/                            ← Code files
 │   ├── prepare_yolo_dataset_enhanced.py
 │   ├── train_yolo_classifier.py
 │   ├── train_simple.py
@@ -94,45 +94,45 @@ python predict_logo.py \
 │   ├── predict_logo.py
 │   └── check_environment.py
 │
-└── runs/classify/                  ← 训练输出（训练后生成）
+└── runs/classify/                  ← Training output (generated after training)
     └── logo_35_xxx/
         ├── weights/
-        │   ├── best.pt            ← 最佳模型
-        │   └── last.pt            ← 最后模型
-        ├── results.png            ← 训练曲线
-        ├── confusion_matrix.png   ← 混淆矩阵
-        └── results.csv            ← 详细结果
+        │   ├── best.pt            ← Best model
+        │   └── last.pt            ← Last model
+        ├── results.png            ← Training curves
+        ├── confusion_matrix.png   ← Confusion matrix
+        └── results.csv            ← Detailed results
 ```
 
-## 🎯 关键参数说明
+## Key Parameter Descriptions
 
 ```python
-# 基础参数
-model = 'yolo11s-cls.pt'    # 模型大小
-epochs = 100                 # 训练轮数
-imgsz = 224                  # 图像大小（标准）
-batch = 32                   # 批次大小
-device = 0                   # GPU编号
+# Basic parameters
+model = 'yolo11s-cls.pt'    # Model size
+epochs = 100                 # Number of training epochs
+imgsz = 224                  # Image size (standard)
+batch = 32                   # Batch size
+device = 0                   # GPU number
 
-# 学习率
-lr0 = 0.01                   # 初始学习率
-lrf = 0.01                   # 最终学习率因子
+# Learning rate
+lr0 = 0.01                   # Initial learning rate
+lrf = 0.01                   # Final learning rate factor
 
-# 早停
-patience = 20                # 20轮不提升则停止
+# Early stopping
+patience = 20                # Stop if no improvement for 20 epochs
 
-# 数据增强
-fliplr = 0.5                 # 水平翻转
-hsv_h = 0.015               # 色调
-hsv_s = 0.7                 # 饱和度
-hsv_v = 0.4                 # 明度
-degrees = 10                 # 旋转角度
-scale = 0.5                  # 缩放
+# Data augmentation
+fliplr = 0.5                 # Horizontal flip
+hsv_h = 0.015               # Hue
+hsv_s = 0.7                 # Saturation
+hsv_v = 0.4                 # Value (brightness)
+degrees = 10                 # Rotation angle
+scale = 0.5                  # Scaling
 ```
 
-## 📈 监控训练
+## Monitoring Training
 
-训练过程中实时显示：
+Real-time display during training:
 
 ```
 Epoch    GPU_mem   loss  top1_acc  top5_acc
@@ -143,68 +143,68 @@ Epoch    GPU_mem   loss  top1_acc  top5_acc
 100/100     2.5G   0.85     0.82      0.96
 ```
 
-关键指标：
-- **loss**: 越小越好
-- **top1_acc**: Top-1准确率（主要指标）
-- **top5_acc**: Top-5准确率
+Key metrics:
+- **loss**: Lower is better
+- **top1_acc**: Top-1 accuracy (main metric)
+- **top5_acc**: Top-5 accuracy
 
-## 🔍 评估结果
+## Evaluating Results
 
-训练完成后，查看结果：
+After training, view results:
 
 ```bash
 cd runs/classify/logo_35_xxx
 
-# 查看最终指标
+# View final metrics
 cat results.csv | tail -5
 
-# 查看混淆矩阵
+# View confusion matrix
 display confusion_matrix.png
 
-# 查看训练曲线
+# View training curves
 display results.png
 
-# 查看模型大小
+# View model size
 ls -lh weights/
 ```
 
-## 🐛 常见问题
+## FAQ
 
 ### 1. CUDA out of memory
 ```bash
-# 减小batch size
-batch=16  # 或 8
+# Reduce batch size
+batch=16  # or 8
 ```
 
-### 2. 训练速度慢
+### 2. Training is slow
 ```bash
-# 确认使用GPU
+# Confirm GPU is being used
 python -c "import torch; print(torch.cuda.is_available())"
 
-# 使用更小的模型
+# Use a smaller model
 model=yolo11n-cls.pt
 ```
 
-### 3. 准确率不高
-- 增加训练轮数：epochs=150
-- 使用更大模型：yolo11m-cls.pt
-- 检查数据质量和标注
+### 3. Low accuracy
+- Increase training epochs: epochs=150
+- Use a larger model: yolo11m-cls.pt
+- Check data quality and labels
 
-### 4. 过拟合
-- 增加数据增强
-- 减小模型大小
-- 早停：patience=20
+### 4. Overfitting
+- Increase data augmentation
+- Use a smaller model
+- Early stopping: patience=20
 
-## 📝 训练后的操作
+## Post-Training Operations
 
-### 导出模型
+### Export Model
 ```python
 from ultralytics import YOLO
 model = YOLO('runs/classify/logo_35_xxx/weights/best.pt')
-model.export(format='onnx')  # 导出为ONNX
+model.export(format='onnx')  # Export to ONNX
 ```
 
-### 在新图片上测试
+### Test on New Images
 ```bash
 python predict_logo.py \
     --model runs/classify/logo_35_xxx/weights/best.pt \
@@ -212,7 +212,7 @@ python predict_logo.py \
     --mode single
 ```
 
-### 批量推理
+### Batch Inference
 ```bash
 python predict_logo.py \
     --model runs/classify/logo_35_xxx/weights/best.pt \
@@ -220,31 +220,31 @@ python predict_logo.py \
     --mode batch
 ```
 
-## 💡 优化建议
+## Optimization Suggestions
 
-### 如果数据不平衡
-某些类别图片太少（如Logitech只有7张）：
+### If Data is Imbalanced
+Some classes have too few images (e.g., Logitech with only 7):
 
-1. **数据增强**：增加augment参数
-2. **类别权重**：使用weighted loss
-3. **重采样**：oversampling少数类
-4. **迁移学习**：从相似任务fine-tune
+1. **Data augmentation**: Increase augment parameters
+2. **Class weights**: Use weighted loss
+3. **Resampling**: Oversample minority classes
+4. **Transfer learning**: Fine-tune from a similar task
 
-### 提升准确率的方法
+### Methods to Improve Accuracy
 
-1. **模型集成**：训练多个模型投票
-2. **Test-Time Augmentation (TTA)**：测试时增强
-3. **更大的模型**：yolo11l-cls或yolo11x-cls
-4. **更多训练数据**：收集更多logo图片
-5. **调整超参数**：网格搜索最优参数
+1. **Model ensemble**: Train multiple models and vote
+2. **Test-Time Augmentation (TTA)**: Augment during testing
+3. **Larger model**: yolo11l-cls or yolo11x-cls
+4. **More training data**: Collect more logo images
+5. **Hyperparameter tuning**: Grid search for optimal parameters
 
-## 📚 参考资料
+## References
 
-- [Ultralytics官方文档](https://docs.ultralytics.com/)
-- [YOLOv11分类教程](https://docs.ultralytics.com/tasks/classify/)
-- [模型训练配置](https://docs.ultralytics.com/modes/train/)
-- [数据增强技巧](https://docs.ultralytics.com/usage/cfg/)
+- [Ultralytics Official Documentation](https://docs.ultralytics.com/)
+- [YOLOv11 Classification Tutorial](https://docs.ultralytics.com/tasks/classify/)
+- [Model Training Configuration](https://docs.ultralytics.com/modes/train/)
+- [Data Augmentation Tips](https://docs.ultralytics.com/usage/cfg/)
 
 ---
 
-**准备好了吗？运行 `check_environment.py` 开始吧！** 🚀
+**Ready? Run `check_environment.py` to get started!**

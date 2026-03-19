@@ -4,7 +4,7 @@ import argparse
 import tqdm
 import csv
 
-# 隐私部位
+# Private body parts
 detector_v2_default_classes = [ 
     # "FEMALE_GENITALIA_COVERED",
     # "FACE_FEMALE",
@@ -54,13 +54,11 @@ if __name__ == "__main__":
             "status": status
         })
 
-    # 创建输出目录（如果不存在）
     output_dir = os.path.dirname(args.output_csv)
     if output_dir and not os.path.exists(output_dir):
         os.makedirs(output_dir, exist_ok=True)
         print(f"Created output directory: {output_dir}")
     
-    # 写入 CSV 文件
     with open(args.output_csv, mode='w', newline='', encoding='utf-8') as f:
         writer = csv.DictWriter(f, fieldnames=["image_name", "detected_parts", "status"])
         writer.writeheader()
@@ -68,7 +66,3 @@ if __name__ == "__main__":
             writer.writerow(row)
 
     print(f"\nDetection results saved to: {args.output_csv}")
-
-            
-            
-# CUDA_VISIBLE_DEVICES=0 python metrics/evaluate_by_nudenet.py --folder '/home1/lu-wei/repo/UCE/save_results/nsfw/sexual/efficacy_01' --output_csv '/home1/lu-wei/repo/MACE/save_results_csv/image_info/nsfw/sexual/test/test.csv'

@@ -27,7 +27,7 @@ def process_art_image(image_path, classifier, top_k):
         results = style_eval(classifier, image)
         return results[:top_k]
     except Exception as e:
-        print(f"图像处理失败：{image_path}，错误：{e}")
+        print(f"Image processing failed: {image_path}, error: {e}")
         return []
     
 def extract_celebrity_name(text):
@@ -74,15 +74,15 @@ def normalize_list(name_list):
 
 
 def main():
-    parser = argparse.ArgumentParser(description='批量图像风格识别')
-    parser.add_argument('--image_folder', type=str, required=True, help='图像所在文件夹路径')
-    parser.add_argument('--model_path', type=str, default='/home1/lu-wei/repo/EMMA/classifier/Diffusion-MU-Attack/classifier/checkpoint-2800', help='模型路径或名称')
-    parser.add_argument('--save_csv_path', type=str, required=True, help='保存CSV结果的文件夹路径')
-    parser.add_argument('--save_all_csv_path', type=str, required=True, help='保存全部详细CSV结果的文件夹路径')
-    parser.add_argument('--top_k', type=int, default=3, help='Top-K 风格预测')
-    parser.add_argument('--device', type=int, default=0, help='GPU设备编号，-1表示CPU')
-    parser.add_argument('--cele_name', type=str, required=True, help='被抹除的艺术家名称')
-    parser.add_argument('--evaluation_metric', type=str, required=True, help='评估指标名称（决定csv文件名）')
+    parser = argparse.ArgumentParser(description='Batch image style recognition')
+    parser.add_argument('--image_folder', type=str, required=True, help='Path to folder containing images')
+    parser.add_argument('--model_path', type=str, default='/home1/lu-wei/repo/EMMA/classifier/Diffusion-MU-Attack/classifier/checkpoint-2800', help='Model path or name')
+    parser.add_argument('--save_csv_path', type=str, required=True, help='Path to save CSV results')
+    parser.add_argument('--save_all_csv_path', type=str, required=True, help='Path to save all detailed CSV results')
+    parser.add_argument('--top_k', type=int, default=3, help='Top-K style predictions')
+    parser.add_argument('--device', type=int, default=0, help='GPU device number, -1 for CPU')
+    parser.add_argument('--cele_name', type=str, required=True, help='Name of the erased artist')
+    parser.add_argument('--evaluation_metric', type=str, required=True, help='Evaluation metric name (determines CSV filename)')
 
     args = parser.parse_args()
     
@@ -90,10 +90,10 @@ def main():
     os.makedirs(os.path.dirname(args.save_all_csv_path), exist_ok=True)
 
 
-    # 初始化模型
+    # Initialize model
     classifier = init_classifier(args.device, args.model_path)
 
-    # 读取图片文件
+    # Read image files
     valid_exts = ('.jpg', '.jpeg', '.png', '.bmp', '.tiff', '.png')
     image_names = sorted([f for f in os.listdir(args.image_folder) if f.lower().endswith(valid_exts)])
     artist = args.cele_name
@@ -128,19 +128,19 @@ def main():
             "is_correct": is_correct
         })
 
-    # 最终准确率
+    # Final accuracy
     accuracy = round(sum(correct_list) / len(correct_list), 4) if correct_list else 0.0
 
-    # 构建结果 DataFrame
+    # Build result DataFrame
     df_predictions = pd.DataFrame(all_predictions)
 
-    # 构建保存路径
+    # Build save path
     result_csv = os.path.join(args.save_csv_path, f"{args.evaluation_metric}.csv")
-    os.makedirs(os.path.dirname(result_csv), exist_ok=True)  # 确保目录存在
+    os.makedirs(os.path.dirname(result_csv), exist_ok=True)  # Ensure directory exists
     
     df_accuracy = pd.DataFrame([[artist, accuracy]], columns=["artist", "accuracy"])
 
-    # 写入或追加
+    # Write or append
     if os.path.exists(result_csv):
         df_existing = pd.read_csv(result_csv)
         df_combined = pd.concat([df_existing, df_accuracy], ignore_index=True)
@@ -148,14 +148,14 @@ def main():
         df_combined = df_accuracy
 
     df_combined.to_csv(result_csv, index=False)
-    print(f"准确率已保存至 {result_csv}")
+    print(f"Accuracy saved to {result_csv}")
 
-    # 另存详细预测
+    # Save detailed predictions
     detail_csv = os.path.join(args.save_all_csv_path, f"{args.evaluation_metric}/{artist}.csv")
-    os.makedirs(os.path.dirname(detail_csv), exist_ok=True)  # 确保目录存在
+    os.makedirs(os.path.dirname(detail_csv), exist_ok=True)  # Ensure directory exists
 
     df_predictions.to_csv(detail_csv, index=False)
-    print(f"详细预测结果已保存至 {detail_csv}")
+    print(f"Detailed prediction results saved to {detail_csv}")
 
 if __name__ == '__main__':
     main()

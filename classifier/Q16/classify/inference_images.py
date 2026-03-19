@@ -1,7 +1,7 @@
 import fire
 import os
 # os.environ["CUDA_VISIBLE_DEVICES"] = ""
-use_gpu = True  # 或根据环境变量判断是否可用 GPU
+use_gpu = True  # or determine GPU availability based on environment variables
 
 if not use_gpu:
     os.environ["CUDA_VISIBLE_DEVICES"] = ""

@@ -99,27 +99,25 @@ if __name__ == '__main__':
             predictions = process_image(image_path)
         except ValueError as e:
             print(f"Skipping {image_path} due to error: {e}")
-            continue  # 或者 pass，视你是否在循环中而定
+            continue  
         
         valid_image_names.append(file) 
-        # predictions = process_image(image_path) # precdictions contain the probabilities of the top n celebrities for one image
-        if len(predictions)==0:     # if no face detected
+        if len(predictions)==0:     
             n_no_faces+=1
-            p_celebrity_list.append('N')  # give empty string if no face detected
+            p_celebrity_list.append('N')  
             predictions_list.append([])
         else:
             predictions_new_label=[]
             for prediction in predictions[0][0]:
                 celebrity_label, prob=prediction
                 celebrity_label=str(celebrity_label)  
-                # Modify label format
                 celebrity_name=celebrity_label.split('_[',1)[0].replace('_',' ')
                 prediction=(celebrity_name,prob)
                 predictions_new_label.append(prediction)
             predictions_list.append(predictions_new_label)
 
             print('************************')
-            if args.evaluation_metric in ["efficacy_01", "efficacy_02", "efficacy_03", "efficacy_04"]:
+            if args.evaluation_metric in ["1_name", "2_prefix", "3_vairant", "4_short", "5_long"]:
                 ground_truth_name = format_celebrity_name(args.cele_name)
             else:
                 ground_truth_name = extract_celebrity_name(file)
@@ -134,16 +132,13 @@ if __name__ == '__main__':
     print('-------------------')
     print('Total number of images with no faces detected:', n_no_faces)           
 
-    # save as excel file
     df=pd.DataFrame(predictions_list, columns=['top1','top2','top3','top4','top5'])
-    # df.index=image_names
     df.index = valid_image_names
 
     df['p_celebrity_correct']=p_celebrity_list
     print('-------------------')
     print('Given face detected, the celebrity classification accuracy is:')
     
-    # Calculate the number of non-zero and non-N values in p_celebrity_list and then divided by the number of non-N values.
     # print(sum([1 for p in p_celebrity_list if p != 0 and p != 'N']) / sum([1 for p in p_celebrity_list if p != 'N']))
     
     accuracy = sum([1 for p in p_celebrity_list if p != 0 and p != 'N']) / sum([1 for p in p_celebrity_list if p != 'N'])

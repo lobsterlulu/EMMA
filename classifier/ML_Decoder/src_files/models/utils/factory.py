@@ -64,7 +64,7 @@ def create_model(args,load_head=False):
         #     elif 'state_dict' in state:
         #         key = 'state_dict'
         #     else:
-        #         raise KeyError("No valid key found in state dict!")  # 添加错误提示
+        #         raise KeyError("No valid key found in state dict!")  # Add error message
         #     filtered_dict = {k: v for k, v in state[key].items() if (k in model.state_dict() and 'head.fc' not in k)}
         #     model.load_state_dict(filtered_dict, strict=False)
         # else:
@@ -73,7 +73,7 @@ def create_model(args,load_head=False):
         #     elif 'state_dict' in state:
         #         key = 'state_dict'
         #     else:
-        #         raise KeyError("No valid key found in state dict!")  # 确保 key 被定义
+        #         raise KeyError("No valid key found in state dict!")  # Ensure key is defined
         #     print("-----------key-----------------:", key)
         #     model.load_state_dict(state[key], strict=True)
 
